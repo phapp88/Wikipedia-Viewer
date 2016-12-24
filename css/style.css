@@ -1,0 +1,73 @@
+body {
+  background-color: teal;
+}
+
+#top {
+  color: white;
+  margin-top: 30px;
+}
+
+@media (min-width: 798px) {
+  #top {
+    width: 798px;
+  }
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+#random {
+  color: BlueViolet;
+  text-decoration: none;
+}
+
+#random:hover {
+  opacity: 0.85;
+}
+
+.col-centered {
+  float: none;
+}
+
+#search #icon {
+  font-size: 55px;  
+  color: white;
+}
+
+.jumbotron {
+  color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-left: 8px solid rgba(0,0,0,0);
+  text-decoration: none;
+}
+
+.jumbotron:hover {
+  border-left: 8px solid BlueViolet;
+}
+
+.target:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 798px) {
+  .jumbotron {
+    height: 40px;
+    border: 1px solid teal;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .jumbotron:hover {
+    border: none;
+  }
+  .jumbotron h2{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .jumbotron p {
+    visibility: hidden;
+  }
+}
